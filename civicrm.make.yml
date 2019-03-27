@@ -15,10 +15,10 @@ projects:
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.8.1-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.9.1-drupal.tar.gz'
 libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.8.1-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.9.1-l10n.tar.gz'
     type: library
