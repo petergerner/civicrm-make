@@ -16,7 +16,7 @@ projects:
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.10.4-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.11.0-drupal.tar.gz'
   tfa:
     version: 2.0
     patch:
@@ -28,5 +28,5 @@ libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.10.4-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.11.0-l10n.tar.gz'
     type: library
