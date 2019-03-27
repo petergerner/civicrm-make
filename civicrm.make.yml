@@ -6,19 +6,20 @@ defaults:
 projects:
   drupal:
     type: core
+    version: 7.64
   webform_civicrm:
-    version: ~
+    version: 4.26
   views:
-    version: ~
+    version: 3.20
   ctools:
-    version: ~
+    version: 1.15
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.9.1-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.10.3-drupal.tar.gz'
 libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.9.1-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.10.3-l10n.tar.gz'
     type: library
