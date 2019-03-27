@@ -17,6 +17,10 @@ projects:
     download:
       type: get
       url:  'https://download.civicrm.org/civicrm-5.10.4-drupal.tar.gz'
+  rules:
+    version: 2.12
+  entity:
+    version: 1.9
   tfa:
     version: 2.0
     patch:
@@ -24,6 +28,8 @@ projects:
         url: 'https://www.drupal.org/files/issues/2019-02-07/tfa-2820710-42.patch'
   tfa_basic:
     version: 1.1
+  tfa_rules:
+    version: 1.1 
 libraries:
   civicrm_l10n_core:
     download:
