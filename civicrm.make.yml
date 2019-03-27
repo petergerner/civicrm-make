@@ -1,0 +1,24 @@
+core: 7.x
+api: 2
+defaults:
+  projects:
+    subdir: contrib
+projects:
+  drupal:
+    type: core
+  webform_civicrm:
+    version: ~
+  views:
+    version: ~
+  ctools:
+    version: ~
+  civicrm:
+    download:
+      type: get
+      url:  'https://download.civicrm.org/civicrm-5.8.1-drupal.tar.gz'
+libraries:
+  civicrm_l10n_core:
+    download:
+      type: file
+      url:  'https://download.civicrm.org/civicrm-5.8.1-l10n.tar.gz'
+    type: library
