@@ -36,3 +36,9 @@ libraries:
       type: file
       url:  'https://download.civicrm.org/civicrm-5.11.0-l10n.tar.gz'
     type: library
+  qrcodejs:
+    download:
+      type: git
+      url:  'https://github.com/davidshimjs/qrcodejs.git'
+    type: library
+    destination: 'modules/contrib/tfa_basic/includes'
