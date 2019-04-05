@@ -10,13 +10,13 @@ projects:
   webform_civicrm:
     version: 4.26
   views:
-    version: 3.21
+    version: 3.22
   ctools:
     version: 1.15
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.11.0-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.12.0-drupal.tar.gz'
   rules:
     version: 2.12
   entity:
@@ -29,12 +29,18 @@ projects:
   tfa_basic:
     version: 1.1
   tfa_rules:
-    version: 1.1 
+    version: 1.1
+  role_delegation:
+    version: 1.1
+  redirect:
+    version: 1.0-rc3
+  password_policy:
+    version: 1.16  
 libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.11.0-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.12.0-l10n.tar.gz'
     type: library
   qrcodejs:
     download:
