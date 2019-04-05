@@ -35,7 +35,10 @@ projects:
   redirect:
     version: 1.0-rc3
   password_policy:
-    version: 1.16  
+    version: 1.16
+  bootstrap:
+    type: theme
+    version: 3.23  
 libraries:
   civicrm_l10n_core:
     download:
