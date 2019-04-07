@@ -36,6 +36,8 @@ projects:
     version: 1.0-rc3
   password_policy:
     version: 1.16
+  jquery_update:
+    version: 2.7
   bootstrap:
     type: theme
     version: 3.23  
