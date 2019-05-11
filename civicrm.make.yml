@@ -8,9 +8,9 @@ projects:
     type: core
     version: 7.67
     patch:
-      ; Using a load balancer or reverse proxy
-      ; https://www.drupal.org/node/425990
-      2970929: https://www.drupal.org/files/issues/2018-05-06/support-proto-header-2970929-2.patch
+      # Using a load balancer or reverse proxy
+      # https://www.drupal.org/node/425990
+      - https://www.drupal.org/files/issues/2018-05-06/support-proto-header-2970929-2.patch
   views:
     version: 3.23
   ctools:
