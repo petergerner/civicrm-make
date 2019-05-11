@@ -6,13 +6,13 @@ defaults:
 projects:
   drupal:
     type: core
-    version: 7.66
+    version: 7.67
     patch:
       ; Using a load balancer or reverse proxy
       ; https://www.drupal.org/node/425990
       2970929: https://www.drupal.org/files/issues/2018-05-06/support-proto-header-2970929-2.patch
   views:
-    version: 3.22
+    version: 3.23
   ctools:
     version: 1.15
   jquery_update:
@@ -45,15 +45,15 @@ projects:
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.13.1-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.13.2-drupal.tar.gz'
   bootstrap:
     type: theme
-    version: 3.23  
+    version: 3.25
 libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.13.1-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.13.2-l10n.tar.gz'
     type: library
   qrcodejs:
     download:
