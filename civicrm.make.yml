@@ -47,15 +47,15 @@ projects:
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.13.4-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.15.1-drupal.tar.gz'
   bootstrap:
     type: theme
-    version: 3.25
+    version: 3.26
 libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.13.4-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.15.1-l10n.tar.gz'
     type: library
   qrcodejs:
     download:
