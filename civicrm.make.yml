@@ -35,15 +35,15 @@ projects:
   tfa_rules:
     version: 1.1
   webform:
-    version: 4.19
+    version: 4.20
   options_element:
     version: 1.12
   webform_civicrm:
-    version: 4.26
+    version: 4.28
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.15.1-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.18.4-drupal.tar.gz'
   bootstrap:
     type: theme
     version: 3.26
@@ -51,7 +51,7 @@ libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.15.1-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.18.4-l10n.tar.gz'
     type: library
   qrcodejs:
     download:
