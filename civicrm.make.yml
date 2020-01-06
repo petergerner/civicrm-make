@@ -6,7 +6,7 @@ defaults:
 projects:
   drupal:
     type: core
-    version: 7.67
+    version: 7.69
   views:
     version: 3.23
   ctools:
@@ -20,7 +20,7 @@ projects:
   rules:
     version: 2.12
   role_delegation:
-    version: 1.1
+    version: 1.2
   password_policy:
     version: 1.16
   redirect:
@@ -29,13 +29,13 @@ projects:
     version: 2.0
     patch:
       mcrypt:
-        url: 'https://www.drupal.org/files/issues/2019-02-07/tfa-2820710-42.patch'
+        url: 'https://www.drupal.org/files/issues/2019-02-07/tfa-2820710-54.patch'
   tfa_basic:
     version: 1.1
   tfa_rules:
     version: 1.1
   webform:
-    version: 4.20
+    version: 4.21
   options_element:
     version: 1.12
   webform_civicrm:
@@ -43,7 +43,7 @@ projects:
   civicrm:
     download:
       type: get
-      url:  'https://download.civicrm.org/civicrm-5.18.4-drupal.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.20.2-drupal.tar.gz'
   bootstrap:
     type: theme
     version: 3.26
@@ -51,7 +51,7 @@ libraries:
   civicrm_l10n_core:
     download:
       type: file
-      url:  'https://download.civicrm.org/civicrm-5.18.4-l10n.tar.gz'
+      url:  'https://download.civicrm.org/civicrm-5.20.2-l10n.tar.gz'
     type: library
   qrcodejs:
     download:
